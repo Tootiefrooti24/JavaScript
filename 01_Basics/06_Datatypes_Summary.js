@@ -16,7 +16,7 @@ console.log(id===anotherid);//output is false cuz symbol give uniqueness to vari
 const heroes=["Shaktiman","naagraj","Me"]//array
 
 let object={
-    name:"Shruti",
+    name:"Shubham",
     age:20,
 }//Objects are key value pairs like name is key and Shruti is Value.So it will be written like this always
 
@@ -42,7 +42,7 @@ console.log(typeof(id));
 // **********************************************************************************
 // STACK AND HEAP MEMORY
 
-let myYoutubename="Shruti@2004"
+let myYoutubename="Tootiefrooti@2004"
 let anothername=myYoutubename
 anothername="chaiaurcode"
 
@@ -54,7 +54,7 @@ let userOne={
     upi:"user@ybl"
 } 
 let userTwo=userOne
-userTwo.email="Hitest@google.com"
+userTwo.email="Hitesh@google.com"
 
 console.log(userOne.email)
 console.log(userTwo.email)
