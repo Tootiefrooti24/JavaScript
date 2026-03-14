@@ -9,7 +9,7 @@ console.log(negValue);
 // console.log(2/3) ;
 // console.log(2%3);
 
-let str1="Shruti"
+let str1="Shubham"
 let str2=" Pandey"
 let str3=str1+ str2
 console.log(str3); 

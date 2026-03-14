@@ -32,3 +32,31 @@ const myFunction= function(){
 
 //typeof will help to know the datatype of variables
 console.log(typeof(id));
+
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+// Official documentation....you can read everything or clear confusion from here
+
+
+
+// **********************************************************************************
+// STACK AND HEAP MEMORY
+
+let myYoutubename="Shruti@2004"
+let anothername=myYoutubename
+anothername="chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+} 
+let userTwo=userOne
+userTwo.email="Hitest@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
