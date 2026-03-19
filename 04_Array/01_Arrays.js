@@ -7,3 +7,9 @@
 
 const myArr=[0,1,2,3,4,5]
 console.log(myArr[2]);
+
+//We can declare arrays like this also
+const myArr2=[1,2,3,4,5]
+const myHeroes=["Shaktiman","Naagraj"]
+const myArr3=new Array(1,2,3,4,5)
+console.log(myArr2[3]);
